@@ -1,19 +1,27 @@
 import React, { useRef } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
-import { Download, Share2 } from 'lucide-react';
+import { Download } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export const QRGenerator = ({ url, restaurantName }) => {
   const qrRef = useRef();
 
   const downloadQR = () => {
+    // Buscamos el canvas dentro del div referenciado
     const canvas = qrRef.current.querySelector('canvas');
-    const pngUrl = canvas
-      .toDataURL("image/png")
-      .replace("image/png", "image/octet-stream");
-    let downloadLink = document.createElement("a");
+    if (!canvas) {
+      console.error("No se encontró el elemento canvas");
+      return;
+    }
+
+    // Convertimos el canvas a una URL de imagen
+    const pngUrl = canvas.toDataURL("image/png");
+    
+    // Creamos un link temporal para disparar la descarga
+    const downloadLink = document.createElement("a");
     downloadLink.href = pngUrl;
-    downloadLink.download = `QR-Menu-${restaurantName}.png`;
+    downloadLink.download = `QR-Menu-${restaurantName || 'Epazzote'}.png`;
+    
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
@@ -26,16 +34,15 @@ export const QRGenerator = ({ url, restaurantName }) => {
         <p className="text-[10px] text-zinc-500 uppercase">Escaneá para ver el menú en vivo</p>
       </div>
 
+      {/* Referencia qrRef agregada al contenedor del canvas */}
       <div ref={qrRef} className="bg-white p-4 rounded-2xl shadow-[0_0_30px_rgba(236,72,153,0.2)]">
         <QRCodeCanvas 
           value={url} 
           size={200}
-          level={"H"} // Alta recuperación de errores
+          level={"H"} 
           includeMargin={false}
           imageSettings={{
-            src: "https://cdn-icons-png.flaticon.com/512/1046/1046771.png", // Un icono de comida opcional en el centro
-            x: undefined,
-            y: undefined,
+            src: "https://cdn-icons-png.flaticon.com/512/1046/1046771.png",
             height: 40,
             width: 40,
             excavate: true,

@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      {/* Navbar simplificada para el cliente */}
       <nav className="fixed top-0 left-0 right-0 z-[100] bg-zinc-900 border-b border-white/10 px-6 py-3 flex justify-between items-center print:hidden">
         <Link to="/" className="flex items-center gap-2">
           <div className="bg-pink-600 p-2 rounded-lg"><Utensils size={18} className="text-white" /></div>
@@ -27,8 +28,7 @@ const App = () => {
               {language === 'es' ? 'Español' : 'English'}
             </span>
           </button>
-          <Link to="/admin" className="text-[10px] font-bold uppercase text-zinc-400 hover:text-white">Editor</Link>
-          <Link to="/layout" className="text-[10px] font-bold uppercase text-cyan-400">Layout</Link>
+          {/* Eliminamos los links de Editor y Layout de aquí para que el cliente no los vea */}
         </div>
       </nav>
 
