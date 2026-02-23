@@ -1,0 +1,360 @@
+{
+  "restaurantName": "EPAZZOTE",
+  "subtitle": "Cocina MEXICANA",
+  "printSettings": {
+    "size": "a4",
+    "orientation": "landscape",
+    "gridCols": 3,
+    "gap": 20
+  },
+  "layoutOrder": [
+    {
+      "id": "header",
+      "w": 3
+    },
+    {
+      "id": "border-1771863334098",
+      "w": 3,
+      "type": "zigzag",
+      "color": "#ec4899"
+    },
+    {
+      "id": "sec-1771861430966",
+      "w": 3
+    },
+    {
+      "id": "border-top",
+      "w": 3,
+      "type": "zigzag"
+    },
+    {
+      "id": "sec-1771856531113",
+      "w": 1
+    },
+    {
+      "id": "sec-1",
+      "w": 1
+    },
+    {
+      "id": "sec-2",
+      "w": 1
+    },
+    {
+      "id": "sec-1771861430215",
+      "w": 1
+    },
+    {
+      "id": "sec-1771860588739",
+      "w": 1
+    },
+    {
+      "id": "sec-1771859761547",
+      "w": 1
+    },
+    {
+      "id": "border-bottom",
+      "w": 3,
+      "type": "zigzag",
+      "color": "#39b517"
+    },
+    {
+      "id": "footer",
+      "w": 3
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "ESPECIALIDADES",
+      "color": "#007385",
+      "items": [
+        {
+          "id": "i1",
+          "name": "TACO DE ASADITA C/NOPAL Y QUESO (1PZA)",
+          "price": "30",
+          "description": "Tortilla hecha a mano, con carne asada a la plancha, queso y nopalito del huerto"
+        },
+        {
+          "id": "item-1771856726190",
+          "name": "ENMOLADAS",
+          "price": "160",
+          "description": "Tres tortillas fritas rellenas de pollo bañadas con mole casero, queso, crema, cebolla, ajonjoli y dip de arroz"
+        },
+        {
+          "id": "item-1771856818937",
+          "name": "TLACOYITOS DEL RANCHO 3 PZAS",
+          "price": "155",
+          "description": "Triangulitos de tortillas hecha a mano rellenas de frijolito negro sazonado con la receta especial del chef, acompañados de queso, crema lechuga del huerto y salsita tatemada"
+        },
+        {
+          "id": "item-1771856949481",
+          "name": "ENFRIJOLADAS 3 PZAS",
+          "price": "150",
+          "description": "Tres tortillas fritas rellenas de pollo, bañadas con frijol refrito sazonado con al receta del chef, queso manchego, crema, queso ranchero, cebolla y cilantro"
+        },
+        {
+          "id": "item-1771857574690",
+          "name": "TACOS DORADOS C/POLLO (5 PZAS)",
+          "price": "140",
+          "description": "Rollitos fritos de maiz con pollo, queso ranchero, crema, lechuga, tomate y salsita verde casera tatemada"
+        },
+        {
+          "id": "item-1771857931124",
+          "name": "LOS KEKITAS DEL CHEF (4 PZAS)",
+          "price": "140",
+          "description": "Tortillas de maiz doraditas con pollo, lechuga, queso, crema y salsita roja casera"
+        },
+        {
+          "id": "item-1771861225622",
+          "name": "PICADITAS DE LA ABUELA (3 PZAS CON TLALITOS)",
+          "price": "140",
+          "description": "Tortilla de maiz al comal con salsa verde o roja, cebolla, requeson y tlalitos"
+        },
+        {
+          "id": "item-1771861340187",
+          "name": "TOSTADAS DE TINGA Y POLLO (3 PZAS)",
+          "price": "145",
+          "description": "Tostadas de maiz, frijol refrito, lechuga, crema, queso y tinga de pollo"
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "BEBIDAS",
+      "color": "#ff6a00",
+      "items": [
+        {
+          "id": "b1",
+          "name": "COCA-COLA",
+          "price": 45,
+          "description": ""
+        },
+        {
+          "id": "item-1771858013564",
+          "name": "COCA-COLA LIGHT",
+          "price": "40",
+          "description": ""
+        },
+        {
+          "id": "item-1771858014546",
+          "name": "SPRITE",
+          "price": "40",
+          "description": ""
+        },
+        {
+          "id": "item-1771858015898",
+          "name": "BOTELLA AGUA",
+          "price": "40",
+          "description": ""
+        },
+        {
+          "id": "item-1771858016941",
+          "name": "AGUA MINERAL",
+          "price": "40",
+          "description": ""
+        },
+        {
+          "id": "item-1771858062603",
+          "name": "VASO DE AGUA SABOR",
+          "price": "55",
+          "description": "Jamaica u horchata"
+        },
+        {
+          "id": "item-1771858064274",
+          "name": "TE E INFUSION",
+          "price": "35",
+          "description": ""
+        },
+        {
+          "id": "item-1771858064897",
+          "name": "CAFE AMERICANO",
+          "price": "35",
+          "description": ""
+        },
+        {
+          "id": "item-1771858066558",
+          "name": "CAFE CON LECHE",
+          "price": "50",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "sec-1771856531113",
+      "title": "desayunos",
+      "color": "#007ecc",
+      "items": [
+        {
+          "id": "item-1771858357465",
+          "name": "HUEVO REVUELTO C/ JAMON",
+          "price": "125",
+          "description": "Dos pzas de huevo, jamon de pavo, tortilla, frijol refrito y pan"
+        },
+        {
+          "id": "item-1771858358396",
+          "name": "HUEVO REVUELTO C/ TOCINO",
+          "price": "135",
+          "description": "Dos pzas de huevo, tocino de cerdo, tortilla, frijol refrito y pan"
+        },
+        {
+          "id": "item-1771858359218",
+          "name": "HUEVO REVUELTO A LA MEXICANA",
+          "price": "125",
+          "description": "Dos pzas huevo, cebolla, jitomate, cilantro, frijol refrito, tortilla y pan"
+        },
+        {
+          "id": "item-1771858365670",
+          "name": "HUEVO NORTEÑO C/ TOCINO O CHORIZO (ESTRELLADO)",
+          "price": "145",
+          "description": "Dos pzas huevo, frijol refrito, tortilla, pan, chile toreado, tocino o chorizo"
+        },
+        {
+          "id": "item-1771858366593",
+          "name": "HUEVO RANCHERO VERDE O ROJO",
+          "price": "140",
+          "description": "Dos pzas de huevo estrellado montado sobre tortilla frita, jamón, queso, bañado con salsa verde o roja, crema, queso ranchero, cebolla y cilantro"
+        },
+        {
+          "id": "item-1771858367524",
+          "name": "OMELETTE NATURAL",
+          "price": "100",
+          "description": "Dos pzas de huevo en torta, frijol refrito, pan y tortilla"
+        },
+        {
+          "id": "item-1771858368426",
+          "name": "CHILAQUILES VERDES, ROJOS O HABANERO C/ HUEVO",
+          "price": "150",
+          "description": "Totopo bañado en salsa de su agrado verde, roja o habanero con queso ranchero, crema, cebolla, cilantro y dos pzas de huevo al gusto"
+        },
+        {
+          "id": "item-1771858369939",
+          "name": "ENCHILADA VERDE O ROJA",
+          "price": "145",
+          "description": "Tres tortillas fritas dobladas, rellenas de huevo revuelto con queso manchego y bañadas de salsa verde o roja con crema, queso ranchero, cebolla y cilantro"
+        },
+        {
+          "id": "item-1771859774654",
+          "name": "PLATO DE FRUTA DE TEMPORADA",
+          "price": "130",
+          "description": "Mezcla de frutas finas de temporada, mil de maple"
+        },
+        {
+          "id": "item-1771859775476",
+          "name": "HOTCAKES O WAFLES",
+          "price": "140",
+          "description": "mezclas de finas harinas, con miel de maple y coulis de fresa con romero"
+        }
+      ]
+    },
+    {
+      "id": "sec-1771859761547",
+      "title": "postres",
+      "color": "#00c717",
+      "items": [
+        {
+          "id": "item-1771860389438",
+          "name": "BUDIN DEL CHEF (1 REBANADA)",
+          "price": "60",
+          "description": "Pan casero con al receta del chef y coulis de fresa con romero"
+        }
+      ]
+    },
+    {
+      "id": "sec-1771860588739",
+      "title": "combos del chef",
+      "color": "#c20000",
+      "items": [
+        {
+          "id": "item-1771860605933",
+          "name": "COMBO 1",
+          "price": "165",
+          "description": "PICADITAS CON COCA-COLA"
+        },
+        {
+          "id": "item-1771860624361",
+          "name": "COMBO 2",
+          "price": "200",
+          "description": "DEDOS DE POLLO Y PAPAS + AGUA DE SABOR"
+        },
+        {
+          "id": "item-1771860650726",
+          "name": "COMBO 3",
+          "price": "200",
+          "description": "ENSALADA DEL CHEF + AGUA DE SABOR"
+        }
+      ]
+    },
+    {
+      "id": "sec-1771861430215",
+      "title": "para los pekes!!",
+      "color": "#a38800",
+      "items": [
+        {
+          "id": "item-1771861451776",
+          "name": "DEDOS DE POLLO C/ PAPAS FRANCESA",
+          "price": "160",
+          "description": "Pechuga de pollo en tempura con papas a la francesa y dip de arroz"
+        },
+        {
+          "id": "item-1771861492468",
+          "name": "SINCRONIZADA JAMON QUESO C/ PAPA GAJO",
+          "price": "145",
+          "description": "Tortilla de harina con jamin, queso y papas gajo caseras"
+        },
+        {
+          "id": "item-1771861495052",
+          "name": "TORTITAS VEGETARIANAS DE GARBANZO",
+          "price": "150",
+          "description": "Tortitas de garbanzo de huerto con finas hierbas, ensalada de pepino, zanahoria y aderezo de epazote con el toque del chef"
+        },
+        {
+          "id": "item-1771861496052",
+          "name": "ENSALADA DEL CHEF MIX DE HORTALIZAS",
+          "price": "145",
+          "description": "Mezcla de hojas finas, lechuga, col del huerto, queso, crutones, tomate, pepino, zanahoria, finas hierbas con aderezo del chef"
+        }
+      ]
+    },
+    {
+      "id": "sec-1771861430966",
+      "title": "menu del dia  $140",
+      "color": "#54006b",
+      "items": [
+        {
+          "id": "item-1771861892393",
+          "name": "SOPA",
+          "price": "",
+          "description": ""
+        },
+        {
+          "id": "item-1771861899366",
+          "name": "ARROZ",
+          "price": "",
+          "description": ""
+        },
+        {
+          "id": "item-1771861936037",
+          "name": "GUISADO CON FRIJOL REFRITO",
+          "price": "",
+          "description": ""
+        },
+        {
+          "id": "item-1771861954344",
+          "name": "TORTILLAS",
+          "price": "",
+          "description": ""
+        },
+        {
+          "id": "item-1771861959133",
+          "name": "AGUA SABOR NATURAL",
+          "price": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "footerInfo": {
+    "location": "Calle 8 nte entre calle 10 y 15, Centro,  Playa del Carmen, Q.R.",
+    "phone": "9841654785"
+  }
+}
