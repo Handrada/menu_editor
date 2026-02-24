@@ -34,16 +34,12 @@ const App = () => {
 
       <main className="min-h-screen pt-16">
         <Routes>
-  {/* Esta es la ruta para los clientes finales */}
-  <Route path="/r/:restaurantSlug" element={<PublicMenu />} />
-  
-  {/* Ruta por defecto que carga Epazzote si no hay slug */}
-  <Route path="/" element={<PublicMenu defaultSlug="epazzote" />} />
-  
-  <Route path="/login" element={<Login />} />
-  <Route path="/admin" element={<Admin />} />
-  <Route path="/layout" element={<LayoutEditor />} />
-</Routes>
+          <Route path="/" element={<PublicMenu />} />
+          <Route path="/r/:restaurantSlug" element={<PublicMenu />} />
+          <Route path="/login" element={<Login />} /> {/* <--- Esta es la nueva puerta */}
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/layout" element={<LayoutEditor />} />
+        </Routes>
       </main>
     </BrowserRouter>
   );
