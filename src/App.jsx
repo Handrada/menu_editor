@@ -8,7 +8,6 @@ import { Login } from './pages/Login';
 import { MenuContext } from './context/MenuContext';
 import { Utensils, Globe } from 'lucide-react';
 
-// --- GUARDIA DE SEGURIDAD ---
 const ProtectedRoute = ({ children }) => {
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -35,8 +34,10 @@ const App = () => {
           <div className="bg-pink-600 p-2 rounded-lg"><Utensils size={18} className="text-white" /></div>
           <span className="text-lg font-black tracking-tighter text-white uppercase">EPAZZOTE</span>
         </Link>
+
         <button onClick={toggleLanguage} className="bg-zinc-800 px-3 py-2 rounded-xl border border-white/5 text-[10px] font-bold text-white uppercase flex items-center gap-2">
-          <Globe size={14} /> {language === 'es' ? 'Español' : 'English'}
+          <Globe size={14} className={language === 'en' ? 'text-cyan-400' : 'text-zinc-500'} />
+          {language === 'es' ? 'Español' : 'English'}
         </button>
       </nav>
 

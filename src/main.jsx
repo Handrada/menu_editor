@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { MenuProvider } from './context/MenuContext';
-import './styles/global.css';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import { MenuProvider } from './context/MenuContext' // <--- IMPORTANTE
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MenuProvider>
+    <MenuProvider> {/* <--- ESTA LINEA DEBE ENVOLVER A APP */}
       <App />
     </MenuProvider>
-  </React.StrictMode>
-);
+  </React.StrictMode>,
+)
