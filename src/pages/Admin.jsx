@@ -255,7 +255,7 @@ export const Admin = () => {
           </div>
         ) : (
           <div className="bg-zinc-900 border border-white/5 rounded-[2rem] p-20 text-center">
-            <p className="text-zinc-500 uppercase text-xs tracking-[0.2em]">No tienes un restaurante asignado todavía.</p>
+            <p className="text-zinc-500 uppercase text-xs tracking-[0.2em]">No tienes un restaurante asignado todavia.</p>
           </div>
         )}
       </div>

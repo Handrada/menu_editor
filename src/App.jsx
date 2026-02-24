@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { PublicMenu } from './pages/PublicMenu';
 import { Admin } from './pages/Admin';
 import { LayoutEditor } from './pages/LayoutEditor';
+import { Login } from './pages/Login'; // <--- Verifica que el archivo se llame Login.jsx
 import { MenuContext } from './context/MenuContext';
 import { Utensils, Globe } from 'lucide-react';
 
@@ -28,7 +29,6 @@ const App = () => {
               {language === 'es' ? 'Español' : 'English'}
             </span>
           </button>
-          {/* Eliminamos los links de Editor y Layout de aquí para que el cliente no los vea */}
         </div>
       </nav>
 
@@ -36,7 +36,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<PublicMenu />} />
           <Route path="/r/:restaurantSlug" element={<PublicMenu />} />
-          <Route path="/login" element={<Login />} /> {/* <--- Esta es la nueva puerta */}
+          <Route path="/login" element={<Login />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/layout" element={<LayoutEditor />} />
         </Routes>
